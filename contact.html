@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Uniquely BRASS Consulting</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header, footer {
+      background: #114b5f;
+      color: white;
+      padding: 1rem 2rem;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      margin-right: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+    }
+
+    h2 {
+      color: #114b5f;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      padding: 0.5rem;
+      font-size: 1rem;
+      margin-top: 0.3rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    textarea {
+      min-height: 100px;
+    }
+
+    button {
+      margin-top: 1.5rem;
+      padding: 0.75rem;
+      background-color: #114b5f;
+      color: white;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0d3a4b;
+    }
+
+    .logo {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .logo img {
+      max-width: 200px;
+    }
+
+    footer {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    .contact p {
+      margin: 0.3rem 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Uniquely BRASS Consulting</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="training.html">Training Topics</a>
+    <a href="testimonials.html">Testimonials</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+</header>
+
+<div class="container">
+  <h2>Contact Us</h2>
+  <p>We’d love to hear from you! Please fill out the form below, and we’ll be in touch.</p>
+
+  <form action="https://formsubmit.co/info@uniquelybrass.com" method="POST">
+    <input type="hidden" name="_next" value="https://uniquelybrass.github.io/uniquelybrass/thankyou.html">
+    <input type="hidden" name="_captcha" value="false">
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="Name" required>
+
+    <label for="school">School Affiliation</label>
+    <input type="text" id="school" name="School Affiliation" required>
+
+    <label for="phone">Phone Number (include extension)</label>
+    <input type="tel" id="phone" name="Phone Number" required>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="Email" required>
+
+    <label for="comments">Comments</label>
+    <textarea id="comments" name="Comments" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="logo">
+    <img src="logo2_edited_edited.png" alt="Uniquely BRASS Logo">
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 Uniquely BRASS Consulting</p>
+  <div class="contact">
+    <p><strong>Address:</strong><br>
+    5445 Murrell Road<br>
+    Unit 102-130<br>
+    Viera, FL 32955</p>
+
+    <p><strong>Email:</strong><br>
+    Sharon: <a href="mailto:sharon.knight0113@gmail.com">sharon.knight0113@gmail.com</a><br>
+    Millie: <a href="mailto:milliekindig@gmail.com">milliekindig@gmail.com</a></p>
+
+    <p><strong>Phone:</strong><br>
+    Sharon: 321-380-0015<br>
+    Millie: 850-260-1392</p>
+  </div>
+</footer>
+
+</body>
+</html>
